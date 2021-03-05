@@ -22,11 +22,9 @@ header {
 	width: 100vw;
 	height: 7vh;
 	position: relative;
-	padding: 1.5rem 3rem 0;
 	display: flex;
 	justify-content: space-between;
 	font-size: var(--secondary-text);
-
 	border-bottom: 4px solid var(--strong-blue);
 }
 
@@ -34,6 +32,24 @@ main {
 	height: 93vh;
 	width: 100%;
 	display: flex;
+}
+
+.header-container__menu > button {
+	width: 120px;
+	height: 40px;
+	margin: 0.5rem 2rem 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: var(--primary-text);
+	background-color: var(--middle-blue);
+	border-radius: 8px;
+	outline: none;
+	border: 1px solid var(--bright-blue);
+}
+
+.header-container__logo {
+	padding: 1.5rem 3rem 0;
 }
 
 .main__left {
