@@ -208,8 +208,26 @@ main {
 	justify-content: space-between;
 }
 
+.payment-method {
+	width: 100%;
+	height: 22vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
 .payment-method__header {
 	display: block;
 	font-size: var(--primary-text);
 	padding: 1rem;
+}
+
+.dollar-amount,
+.bs-amount {
+	width: 100%;
+	height: 40px;
+	padding: 1rem 2rem;
+	display: flex;
+	justify-content: space-between;
+	font-size: var(--primary-text);
 }
