@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sistema de Inventario y Ventas">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
@@ -13,7 +14,13 @@
 <body>
     <header>        
         <div class="header-container__menu">
-            <button>MENU</button>
+            <button id="menu-btn" class="menu-btn">MENU</button>
+            <ul id="menu-list" class="menu-content">
+                <li>Reportes</li>
+                <li>Inventario</li>
+                <li>Cierre de Caja</li>
+                <li>Cerrar Sistema</li>
+            </ul>
         </div>
         <div class="header-container__logo">
             LOGO
@@ -209,5 +216,6 @@
             </div>
         </div>
     </main>
+    <script src="./src/index.js"></script>
 </body>
 </html>

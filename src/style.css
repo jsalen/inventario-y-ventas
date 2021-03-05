@@ -34,6 +34,17 @@ main {
 	display: flex;
 }
 
+button,
+.menu-content > li,
+.item__name {
+	cursor: pointer;
+}
+
+.header-container__menu {
+	width: 90%;
+	display: flex;
+}
+
 .header-container__menu > button {
 	width: 120px;
 	height: 40px;
@@ -42,10 +53,38 @@ main {
 	justify-content: center;
 	align-items: center;
 	font-size: var(--primary-text);
+	font-weight: 400;
 	background-color: var(--middle-blue);
 	border-radius: 8px;
 	outline: none;
 	border: 1px solid var(--bright-blue);
+}
+
+.menu-content {
+	list-style: none;
+	display: none;
+	margin: 0.5rem;
+	opacity: 0;
+	visibility: hidden;
+}
+
+.header-container__menu > .show {
+	display: flex;
+	opacity: 1;
+	visibility: visible;
+}
+
+.header-container__menu ul > li {
+	width: 120px;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 1rem;
+	color: #fff;
+	font-size: var(--secondary-text);
+	background-color: #5d5df7;
+	border-radius: 8px;
 }
 
 .header-container__logo {
@@ -73,8 +112,9 @@ main {
 
 .search-bar__bar-code {
 	position: absolute;
-	top: calc(50% - 10px);
+	top: calc(50% - 15px);
 	left: 10px;
+	font-size: 1.6rem;
 }
 
 .search-bar > input {
@@ -93,8 +133,9 @@ main {
 
 .search-bar__search-icon {
 	position: absolute;
-	top: calc(50% - 10px);
+	top: calc(50% - 15px);
 	right: 15px;
+	font-size: 1.6rem;
 }
 
 .purchase-list {
