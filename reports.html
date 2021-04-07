@@ -29,7 +29,8 @@
     <main>
         <div class="reports-header">
             <h1>Reporte de Ventas</h1>
-            <select name="date-period" id="date-period">Periodo de Tiempo
+            <select name="date-period" id="date-period">
+                <option value="" disabled selected hidden>Periodo de Tiempo</option>
                 <option value="today">Hoy</option>
                 <option value="yesterday">Ayer</option>
                 <option value="week">Esta semana</option>
@@ -37,7 +38,36 @@
             </select>
         </div>
         <div class="reports-content">
-            
+            <table class="reports-content__table">
+                <tbody>
+                    <tr>
+                        <td>&nbsp;Producto</td>
+                        <td>Unidades</td>
+                        <td>Monto Total</td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;Refresco Glup 2 Lts.</td>
+                        <td>&nbsp;1</td>
+                        <td>1.800.000&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;Arroz Mary 1 Kg.</td>
+                        <td>3&nbsp;</td>
+                        <td>4.200.000&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;Azucar Montalban 1 Kg.</td>
+                        <td>1&nbsp;</td>
+                        <td>1.600.000&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;Cigarros Belmont Grande</td>
+                        <td>2&nbsp;</td>
+                        <td>4.400.000&nbsp;</td>
+                    </tr>
+                </tbody>
+            </table>
+            <!-- DivTable.com -->
         </div>
     </main>
     <script src="./src/index.js"></script>
