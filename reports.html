@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sistema de Inventario y Ventas">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    <link rel="stylesheet" href="./src/reports.css">
+    <title>Inventario y Ventas</title>
+</head>
+<body>
+    <header>        
+        <div class="header-container__menu">
+            <button id="menu-btn" class="menu-btn">MENU</button>
+            <ul id="menu-list" class="menu-content">
+                <li><a href="./reports.html">Reportes</a></li>
+                <li>Inventario</li>
+                <li>Cierre de Caja</li>
+                <li>Cerrar Sistema</li>
+            </ul>
+        </div>
+        <div class="header-container__logo">
+            LOGO
+        </div>        
+    </header>
+    <main>
+        <div class="reports-header">
+            <h1>Reporte de Ventas</h1>
+            <select name="date-period" id="date-period">Periodo de Tiempo
+                <option value="today">Hoy</option>
+                <option value="yesterday">Ayer</option>
+                <option value="week">Esta semana</option>
+                <option value="month">Este mes</option>
+            </select>
+        </div>
+        <div class="reports-content">
+            
+        </div>
+    </main>
+    <script src="./src/index.js"></script>
+</body>
+</html>

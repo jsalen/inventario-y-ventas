@@ -27,7 +27,10 @@ header {
 	font-size: var(--secondary-text);
 	border-bottom: 4px solid var(--strong-blue);
 }
-
+a {
+	text-decoration: none;
+	color: #fff;
+}
 main {
 	height: 93vh;
 	width: 100%;
